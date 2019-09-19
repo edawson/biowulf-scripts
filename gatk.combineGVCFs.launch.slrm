@@ -1,0 +1,1 @@
+swarm -t 1 --partition norm --time 2-00:00:00 --module samtools,GATK -g 80 -f $1 --gres=lscratch:400
